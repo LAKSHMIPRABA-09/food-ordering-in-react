@@ -1,8 +1,6 @@
 import { Card as MUICard, CardMedia, CardContent, Typography, ButtonBase, Box, Fade } from '@mui/material';
 import { lazy } from 'react';
 import { useNavigate } from "react-router-dom";
-
-//Style for MUI Card Hover effect 
 export const hoverEffectStyle = {
     boxShadow: 'none',
     bgColor: 'white',
@@ -14,8 +12,6 @@ export const hoverEffectStyle = {
         transform: 'scale(1.005)'
     },
 }
-
-
 const Card = ({ meal }) => {
 
     const { id, name, description, img, price } = meal;

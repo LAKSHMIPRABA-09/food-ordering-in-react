@@ -32,10 +32,10 @@ const Footer = () => {
                     {/* Copyright*/}
                     <div className='col lg:col-span-7 md:text-start text-center  md:order-first order-last'>
                         {/* Redirect to Hasan's Github */}
-                        <a href="https://github.com/ahmod001" 
+                        <a href="https://github.com/LAKSHMIPRABA-09" 
                         target="_blank" rel="noopener noreferrer">
                             <span className='md:text-gray-400 text-gray-500 text-xs'>
-                                Developed by Ahmod Hasan
+                                Developed by lakshmipraba
                             </span>
                         </a>
                     </div>
